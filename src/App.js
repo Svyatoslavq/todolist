@@ -1,6 +1,6 @@
-import Header from './components/Header';
-import TodoList from './components/TodoList';
-import AddTodo from './components/addTodo';
+import Header from './components/Header/Header';
+import TodoList from './components/TodoList/TodoList';
+import AddTodo from './components/addTodo/addTodo';
 import { useState } from 'react';
 import {Container} from 'react-bootstrap'
 import ReactDOM from 'react-dom/client';
@@ -26,6 +26,9 @@ function App() {
     },
   ])
   console.log(todo)
+
+
+  
 
   return (
     <Container className="App" >
